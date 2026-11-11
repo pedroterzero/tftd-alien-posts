@@ -10,14 +10,14 @@ In OpenXcom the same room always feels empty by the time I get there. I wanted t
 
 Here's how I tested it. I generated battles in the DOS game (under DOSBox), saved on turn 1, and converted that save into an OpenXcom save: same map, same aliens on the same tiles with the same equipment. Then I let 30 turns pass in each game with my squad standing still where it started, saved every turn, and compared where every alien was. OpenXcom was a current nightly (commit 4a4bae5) with vanilla TFTD rules.
 
-These are the aliens that started in the final room, over four battles:
+These are the aliens that started in the final room, over four battles (two on Beginner, two on Veteran):
 
 | Battle | Started in the room | DOS: left within 30 turns | OpenXcom: left within 30 turns |
 |---|---|---|---|
-| B (Beginner) | 7 | 0 | 7, six of them by turn 5 |
-| C (Beginner in DOS, Veteran in OpenXcom) | 11 | 0 | 10, all on the first alien turn |
-| D (Veteran) | 12 | 4 | 12, eleven by turn 4 |
-| F (Veteran) | 12 | 2 | 10, all by turn 5 |
+| B | 7 | 0 | 7, six of them by turn 5 |
+| C | 11 | 0 | 10, all on the first alien turn |
+| D | 12 | 4 | 12, eleven by turn 4 |
+| F | 12 | 2 | 10, all by turn 5 |
 
 I also tried baiting them. I put one unarmed aquanaut on the chamber floor where the alcoves could see him. In the DOS game a Tentaculat came out of its alcove on the very first alien turn and zombified him, and did the same when I repeated it. The other six Tentaculats didn't move. In OpenXcom, from the same position, nobody charged him in 12 turns.
 

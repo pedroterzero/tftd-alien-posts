@@ -11,14 +11,14 @@ In OpenXcom the same room always feels empty by the time I get there. I wanted t
 
 Here's how I tested it. I generated battles in the DOS game (under DOSBox), saved on turn 1, and converted that save into an OpenXcom save: same map, same aliens on the same tiles with the same equipment. Then I let 30 turns pass in each game with my squad standing still where it started, saved every turn, and compared where every alien was. OpenXcom was a current nightly (commit 4a4bae5) with vanilla TFTD rules.
 
-These are the aliens that started in the final room, over four battles:
+These are the aliens that started in the final room, over four battles (two on Beginner, two on Veteran):
 
 [table]
 [tr][td][b]Battle[/b][/td][td][b]Started in the room[/b][/td][td][b]DOS: left within 30 turns[/b][/td][td][b]OpenXcom: left within 30 turns[/b][/td][/tr]
-[tr][td]B (Beginner)[/td][td]7[/td][td]0[/td][td]7, six of them by turn 5[/td][/tr]
-[tr][td]C (Beginner in DOS, Veteran in OpenXcom)[/td][td]11[/td][td]0[/td][td]10, all on the first alien turn[/td][/tr]
-[tr][td]D (Veteran)[/td][td]12[/td][td]4[/td][td]12, eleven by turn 4[/td][/tr]
-[tr][td]F (Veteran)[/td][td]12[/td][td]2[/td][td]10, all by turn 5[/td][/tr]
+[tr][td]B[/td][td]7[/td][td]0[/td][td]7, six of them by turn 5[/td][/tr]
+[tr][td]C[/td][td]11[/td][td]0[/td][td]10, all on the first alien turn[/td][/tr]
+[tr][td]D[/td][td]12[/td][td]4[/td][td]12, eleven by turn 4[/td][/tr]
+[tr][td]F[/td][td]12[/td][td]2[/td][td]10, all by turn 5[/td][/tr]
 [/table]
 
 I also tried baiting them. I put one unarmed aquanaut on the chamber floor where the alcoves could see him. In the DOS game a Tentaculat came out of its alcove on the very first alien turn and zombified him, and did the same when I repeated it. The other six Tentaculats didn't move. In OpenXcom, from the same position, nobody charged him in 12 turns.
