@@ -23,7 +23,7 @@ Aliens that started in the final room:
 
 **It is not only that room.** TFTD's maps have more places where aliens start at a post of their own, away from the main patrol routes. I ran the same test on three of them, all on Veteran:
 
-- **Alien Colony, first stage.** The centre of the map holds a garrison of six, and there are smaller posts around it, 20 aliens in all. In the DOS game the garrison circled inside its own block for all 30 turns and none of the 20 left their post. In OpenXcom all 20 left, most within five turns.
+- **Alien Colony, first stage.** The centre of the map holds a garrison of six, and there are smaller posts around it, 20 aliens in all. In the DOS game the garrison circled inside its own block for all 30 turns and none of the 20 left their post. In OpenXcom all 20 left, 18 of them within five turns.
 - **Port terror site.** A Tasoth started on the upper floor of the dock building, the one with the outside staircase. In the DOS game he stayed upstairs for 30 turns; in OpenXcom he came down on turn 6. Of five aliens at posts like this, none left in DOS and four left in OpenXcom.
 - **Artefact Site, first stage.** Two Tentaculats and a Tasoth started at posts of this kind, two of them on the upper floors of the pyramid. All three stayed in DOS; all three left in OpenXcom by turn 6.
 
