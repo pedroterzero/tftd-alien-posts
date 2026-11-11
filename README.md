@@ -2,5 +2,4 @@
 
 Side-by-side comparison of alien movement in the DOS version of X-COM: Terror from the Deep and in OpenXcom, starting from identical turn-1 positions.
 
-- [post.md](post.md): the write-up
 - [Timelapses](https://pedroterzero.github.io/tftd-alien-posts/): interactive, one page per battle
