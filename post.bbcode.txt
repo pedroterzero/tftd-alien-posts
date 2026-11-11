@@ -11,7 +11,7 @@ Something about the second stage of the Artefact Site has bugged me for a long t
 
 [b]The test.[/b] I generated battles in the DOS game (under DOSBox), saved on turn 1, and converted that save into an OpenXcom save: same map, same aliens on the same tiles with the same equipment. Then I let 30 turns pass in each game with my squad standing still at its starting point, saving every turn, and compared where every alien was. OpenXcom was a current nightly (commit 4a4bae5), vanilla TFTD rules.
 
-Aliens that started in the final room:
+[b]The final room.[/b] Aliens that started in it, in four battles:
 
 [table]
 [tr][td][b]Battle[/b][/td][td][b]Started in the room[/b][/td][td][b]DOS: left within 30 turns[/b][/td][td][b]OpenXcom: left within 30 turns[/b][/td][/tr]
@@ -21,6 +21,8 @@ Aliens that started in the final room:
 [tr][td]F (Veteran)[/td][td]12[/td][td]2[/td][td]10, all by turn 5[/td][/tr]
 [/table]
 
+To see what the ones that stay are waiting for, I put one unarmed aquanaut on the chamber floor in view of the alcoves. In the DOS game a Tentaculat left its alcove on the very first alien turn and zombified him (same outcome on a second try), while the other six Tentaculats stayed where they were. In OpenXcom, from the same position, nobody charged him in 12 turns.
+
 [b]It is not only that room.[/b] TFTD's maps have more places where aliens start at a post of their own, away from the main patrol routes. I ran the same test on two of them, both on Veteran:
 
 [list]
@@ -28,26 +30,27 @@ Aliens that started in the final room:
 [li][b]Port terror site.[/b] A Tasoth started on the upper floor of the dock building, the one with the outside staircase. In the DOS game he stayed upstairs for 30 turns; in OpenXcom he came down on turn 6. Of five aliens at posts like this, none left in DOS and four left in OpenXcom.[/li]
 [/list]
 
-[b]The pounce.[/b] Back in the final room, I put one unarmed aquanaut on the chamber floor in view of the alcoves. In the DOS game a Tentaculat left its alcove on the very first alien turn and zombified him (same outcome on a second try), while the other six Tentaculats stayed where they were. In OpenXcom, from the same position, nobody charged him in 12 turns.
+The colony entrance, DOS on the left and OpenXcom on the right:
 
-In every one of these battles the aliens on the main patrol routes roamed the map in both games, so this is not the DOS aliens being passive across the board. The DOS game has aliens that roam and aliens that hold a post, and in OpenXcom nearly all of them roam.
+[img]https://pedroterzero.github.io/tftd-alien-posts/media/timelapse_H.gif[/img]
 
-This looks specific to TFTD. Going by the map files, TFTD has about a hundred posts of this kind and UFO: Enemy Unknown has none, which may be why it went unnoticed.
+In all of these battles the aliens on the main patrol routes roamed the map in both games. So the DOS game has aliens that roam and aliens that hold a post, and in OpenXcom nearly all of them roam.
+
+[b]This is not a complaint about OpenXcom's AI.[/b] Its aliens move with far more purpose than the DOS ones, which often just stand around for no reason, and across most of the game that is a clear improvement. What I am describing looks like a side effect of that improvement: the aliens that were holding a post were given the same freedom as everyone else. It may also have been easy to miss, because it seems specific to TFTD. Going by the map files, TFTD has about a hundred posts of this kind and UFO: Enemy Unknown has none.
 
 Whether a room full of camping Tentaculats is good design is a matter of taste. Whether the DOS game played that way is not, and the test says it did.
 
 For me that room is one of the things that made TFTD what it was. I would like to see these places work in OpenXcom the way they did in the original, even if only for these specific parts of the game and even if only as an option. I have the saves from both games, the per-turn positions of every alien and the save converter, and I am glad to share them or run more comparisons if that helps.
 
-Timelapses (DOS left, OpenXcom right; each page is interactive, with a per-alien table):
+[b]Timelapses[/b] (DOS left, OpenXcom right; each page is interactive, with a per-alien table):
 
 [list]
+[li][url=https://pedroterzero.github.io/tftd-alien-posts/colony-entrance.html]Alien Colony entrance[/url][/li]
 [li][url=https://pedroterzero.github.io/tftd-alien-posts/artefact-final-room-B.html]Artefact Site final room, battle B[/url][/li]
 [li][url=https://pedroterzero.github.io/tftd-alien-posts/artefact-final-room-D.html]Artefact Site final room, battle D[/url][/li]
 [li][url=https://pedroterzero.github.io/tftd-alien-posts/artefact-final-room-F.html]Artefact Site final room, battle F[/url][/li]
-[li][url=https://pedroterzero.github.io/tftd-alien-posts/colony-entrance.html]Alien Colony entrance[/url][/li]
 [li][url=https://pedroterzero.github.io/tftd-alien-posts/port-terror.html]Port terror site[/url][/li]
-[li][url=https://pedroterzero.github.io/tftd-alien-posts/artefact-stage-1.html]Artefact Site, first stage[/url][/li]
-[li][url=https://pedroterzero.github.io/tftd-alien-posts/media/rec_B_dos_alien_turns.mp4]Recording of the DOS alien turns, battle B[/url] (map and aliens made visible)[/li]
+[li][url=https://pedroterzero.github.io/tftd-alien-posts/artefact-stage-1.html]Artefact Site, first stage[/url] (not discussed above; three aliens at posts, same result)[/li]
+[li][url=https://pedroterzero.github.io/tftd-alien-posts/media/rec_B_dos_alien_turns.mp4]Recording of the DOS alien turns, final room battle B[/url] (map and aliens made visible)[/li]
 [/list]
 
-[img]https://pedroterzero.github.io/tftd-alien-posts/media/timelapse_H.gif[/img]
