@@ -4,7 +4,7 @@ Hi all,
 
 Something about the second stage of the Artefact Site has bugged me for a long time, so I finally tested it.
 
-**What I remember from the DOS game.** The big chamber you cross on the way to the Synomium Device was one of the riskiest rooms in the game. Aliens sat in the alcoves high in its walls and stayed there until you killed them. The Tentaculats in particular camped up there and only came out when one of your aquanauts walked into view, and then you had a zombie. You had to take that room alcove by alcove.
+**What I remember from the DOS game.** The big chamber you cross on the way to the Synomium Device was one of the riskiest rooms in the game. Aliens sat in the alcoves high in its walls, sniping at you, and stayed there until you killed them. The Tentaculats in particular camped up there and only came out when one of your aquanauts walked into view, and then you had a zombie. You had to take that room alcove by alcove.
 
 **What happens in OpenXcom.** The same room always feels empty by the time I get there, and it turns out that is exactly what happens: the room empties itself. The aliens that start in the alcoves leave on the first turns and spread over the map, so they reach you a few at a time in the corridors, and by the time you get to the chamber it is a large deserted hall. The set piece the level seems to be built around never takes place.
 
